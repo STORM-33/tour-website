@@ -1,5 +1,6 @@
 import Navigation from '@/components/ui/Navigation'
 import Hero from '@/components/sections/Hero'
+import About from '@/components/sections/About'
 
 export default function Home() {
   return (
@@ -9,15 +10,7 @@ export default function Home() {
       <main>
         <Hero />
 
-        {/* O nas Section */}
-        <section id="o-nas" className="py-20 px-4">
-          <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-8">O nas</h2>
-            <div className="h-64 bg-gray-100 rounded-lg flex items-center justify-center">
-              <p className="text-gray-400">Treść sekcji "O nas"</p>
-            </div>
-          </div>
-        </section>
+        <About />
 
         {/* Wycieczki Section */}
         <section id="wycieczki" className="py-20 px-4 bg-gray-50">
