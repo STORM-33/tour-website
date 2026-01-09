@@ -11,9 +11,33 @@ const navLinks = [
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
+  const [showDisclaimer, setShowDisclaimer] = useState(true)
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
+      {/* Disclaimer Banner */}
+      {showDisclaimer && (
+        <div className="bg-amber-50 border-b-2 border-amber-200 py-2 px-4">
+          <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
+            <div className="flex-1"></div>
+            <p className="text-xs sm:text-sm text-amber-900 text-center flex-shrink">
+              <strong>PL:</strong> To jest przykładowa wersja strony. Wszystkie treści zostały wygenerowane przez sztuczną inteligencję.
+              <span className="mx-2 sm:mx-3">•</span>
+              <strong>RU:</strong> Это демонстрационная версия сайта. Все тексты сгенерированы искусственным интеллектом.
+            </p>
+            <button
+              onClick={() => setShowDisclaimer(false)}
+              className="flex-shrink-0 ml-4 p-2 rounded-md bg-amber-200 hover:bg-amber-300 text-amber-900 transition-all hover:scale-110"
+              aria-label="Close disclaimer"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      )}
+
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <a href="#" className="text-xl font-bold text-primary-700">
