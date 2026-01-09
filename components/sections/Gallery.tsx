@@ -5,35 +5,35 @@ import Image from 'next/image'
 
 const images = [
   {
-    src: 'https://images.unsplash.com/photo-1519197924294-4ba991a11128?w=600&h=400&fit=crop',
+    src: 'https://images.unsplash.com/photo-1609674772639-1997f286933a?w=600&h=400&fit=crop',
     alt: 'Stare Miasto w Warszawie',
   },
   {
-    src: 'https://images.unsplash.com/photo-1607427293702-036707e22197?w=600&h=400&fit=crop',
+    src: 'https://images.unsplash.com/photo-1548495009-79fcdbf1a4e7?w=600&h=400&fit=crop',
     alt: 'Pałac Kultury i Nauki',
   },
   {
-    src: 'https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=600&h=400&fit=crop',
+    src: 'https://images.unsplash.com/photo-1728717832210-311f016165cb?w=600&h=400&fit=crop',
     alt: 'Park Łazienkowski',
   },
   {
-    src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop',
+    src: 'https://images.unsplash.com/photo-1742337871092-4d420bc26030?w=600&h=400&fit=crop',
     alt: 'Bulwary Wiślane',
   },
   {
-    src: 'https://images.unsplash.com/photo-1573158926991-3ab8d3cfc4f2?w=600&h=400&fit=crop',
+    src: 'https://images.unsplash.com/photo-1630253300605-40f30796a497?w=600&h=400&fit=crop',
     alt: 'Murale Pragi',
   },
   {
-    src: 'https://images.unsplash.com/photo-1596484552834-6a58f850e0a1?w=600&h=400&fit=crop',
+    src: 'https://images.unsplash.com/photo-1700129878595-c715700c08c6?w=600&h=400&fit=crop',
     alt: 'Zamek Królewski',
   },
   {
-    src: 'https://images.unsplash.com/photo-1571942676516-bcab84649e44?w=600&h=400&fit=crop',
+    src: 'https://images.unsplash.com/photo-1570865678464-e54efc9276e2?w=600&h=400&fit=crop',
     alt: 'Krakowskie Przedmieście',
   },
   {
-    src: 'https://images.unsplash.com/photo-1548345680-f5475ea5df84?w=600&h=400&fit=crop',
+    src: 'https://images.unsplash.com/photo-1709189469688-2764657b1359?w=600&h=400&fit=crop',
     alt: 'Nowe Miasto',
   },
 ]
